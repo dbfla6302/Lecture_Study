@@ -1,0 +1,51 @@
+body{
+    background: url(https://www.cambridge.org/elt/blog/wp-content/uploads/2019/02/background-3268840_1920.jpg) no-repeat;
+    background: url(https://static.vecteezy.com/system/resources/previews/006/207/663/non_2x/leaves-and-clouds-background-with-fine-weather-vector.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.weather-box{
+    width: 50%;
+    border: 3px solid white;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: #f0ffffa1;
+    text-align: center;
+}
+
+.weather-box div{
+    color: #444;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.weather-box h2{
+    font-weight: bold;
+    color: tomato;
+}
+
+.weather-btn-box{
+    width: 50%;
+    border: 3px solid #959595;
+    margin: 20px 0 0;
+    padding: 10px 0;
+    border-radius: 30px;
+    background-color: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.weather-btn-box Button{
+    margin: 0 10px;
+}
