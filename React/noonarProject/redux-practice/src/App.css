@@ -1,0 +1,13 @@
+.App{
+    width: 100%;
+    text-align: center;
+}
+button{
+    width: 80px;
+    height: 40px;
+    border: 0;
+    background: orange;
+    margin: 0 5px 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
